@@ -8,6 +8,7 @@
 * Copyright 2011-2017 The Bootstrap Authors 
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&family=Quicksand:wght@500&display=swap');
 :root {
   --blue: #2979ff;
   --indigo: #3d5afe;
@@ -7470,10 +7471,17 @@ body {
     background-color: rgba(0, 0, 0, 0.4); } }
 
 .navbar .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 2em;
   font-weight: 900;
+  color: #fff;
+  text-transform: uppercase; 
+  font-family: 'DynaPuff'; 
+}
+
+.navbar .navbar-brand span {
   color: #2979ff;
-  text-transform: uppercase; }
+}
+
 
 .navbar .navbar-nav .nav-item {
   margin: 0 .7rem; }
